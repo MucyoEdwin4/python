@@ -37,3 +37,11 @@ numb2.pop(2)                                 # it removes the element in the lis
 print(numb2)
 
 # numb2.clear() =! del numb2      (the clear method deletes every element from the list but the list remains to exist while the del removes everything the variable itself included )
+
+
+########################### TUPLES ##############################
+
+# A TUPLE IS SIMPLY AN IMMUTABLE LIST BUT INSTEAD OF USING SQUARE BRAQUETS [] WE USE PARANTHESIS ()
+
+tuple1 = (3,'Hello', True, 4)
+print(type(tuple1))
