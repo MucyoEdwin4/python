@@ -45,3 +45,6 @@ print(numb2)
 
 tuple1 = (3,'Hello', True, 4)
 print(type(tuple1))
+
+
+########################### FUNCTIONS ##############################
