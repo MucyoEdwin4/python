@@ -1,8 +1,6 @@
 ############### USER INPUT ############
 
 # name = input('Enter your name here: ')
-# age  = 24
-# print(name + ' is your name and you are ' , age , 'years old')
 
 ############### LISTS ############
 
