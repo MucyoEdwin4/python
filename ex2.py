@@ -49,3 +49,16 @@ print(type(tuple1))
 
 ########################### FUNCTIONS ##############################
 
+print('this is an example of a function')
+name = input('Enter your name here: ')
+age = input('Enter your age here: ')
+
+def function_example(name, age):
+    print('Your name is '+name+'. And You are ',age, 'years old')
+
+def friends_list(*friends):                              # (*friends) means that we are going to be passing an uknown number of parameters in form of a tuple
+    print('here are your friends: ', friends)
+    print('The last one of them is ',friends[-1])
+
+function_example(name, age)   
+friends_list('Jerome','John','Jeremy','Khalifa','Benjamin')   
