@@ -7,11 +7,11 @@
 countries = ['Rwanda','uganda','Kenya','Tanzania','Rwanda','Burundi','Morocco','Rwanda']
 fruits = ['Avocado','banana','melon','passion']
 numb = [3,5,2,8,7,1,6,4,9]
-print(type(countries))
-print(countries[2:])
-print(countries[:2])
-print(countries[0:3])
-countries[6] = 'DRC'
+print(type(countries))                      # it checks the datatype of the variable
+print(countries[2:])                        # it prints elements of a list that comes after a specified index
+print(countries[:2])                        # it prints elements of a list that comes prior to a specified index
+print(countries[0:3])                       # it prints elements of a list that are between the specified indexes
+countries[6] = 'DRC'                        # it changes the value of that index
 print(countries[-1])                        # prints the last nth Element in the list
 print(len(countries))                       # prints the total number of elements in the list
 countries.extend(fruits)                    # it joins the second list to the first one
@@ -48,3 +48,4 @@ print(type(tuple1))
 
 
 ########################### FUNCTIONS ##############################
+
