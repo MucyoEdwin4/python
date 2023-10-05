@@ -53,12 +53,27 @@ print('this is an example of a function')
 name = input('Enter your name here: ')
 age = input('Enter your age here: ')
 
-def function_example(name, age):
+def function_example(name, age):                        # function definition with 2 parameters
     print('Your name is '+name+'. And You are ',age, 'years old')
 
-def friends_list(*friends):                              # (*friends) means that we are going to be passing an uknown number of parameters in form of a tuple
+def friends_list(*friends):                             # (*friends) means that we are going to be passing an uknown number of parameters in form of a tuple
     print('here are your friends: ', friends)
     print('The last one of them is ',friends[-1])
 
-function_example(name, age)   
-friends_list('Jerome','John','Jeremy','Khalifa','Benjamin')   
+function_example(name, age)                             # function calling & passing 2 arguments
+friends_list('Jerome','John','Jeremy','Khalifa','Benjamin')   # function calling
+
+
+
+########################### IF STATEMENT ##############################
+
+print('This is an example of If statement')
+a = input('Enter a number to compare: ')
+b = input('Enter a second number to compare: ')
+
+if a>b:
+    print(a, 'Is greater' )
+elif b>a: 
+    print(b, 'Is greater')
+else :
+    print('these numbers are equal')
